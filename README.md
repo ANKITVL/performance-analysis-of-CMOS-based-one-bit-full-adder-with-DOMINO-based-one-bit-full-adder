@@ -33,9 +33,9 @@ PrimeWave™ Design Environment is a comprehensive and flexible environment for 
 **• Synopsys 28nm PDK:**
 The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 ## Pre-Layout Schematics and Simulations:
-### Schematics of CMOS Based Full-Adder:
+### Schematic of CMOS Based Full-Adder:
 ![cmos fa](https://user-images.githubusercontent.com/94243690/155883052-9c9bfca4-6557-4eb1-a933-cc93d4d62985.png)
-### Schematics of DOMINO Based Full-Adder:
+### Schematic of DOMINO Based Full-Adder:
 ![domino based fa](https://user-images.githubusercontent.com/94243690/155883146-536205c3-ea37-41ba-860d-fc5c5105dc16.png)
 ### Simulations:
 
