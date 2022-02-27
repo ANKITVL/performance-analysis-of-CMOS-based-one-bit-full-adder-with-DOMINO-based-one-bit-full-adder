@@ -1,5 +1,3 @@
-[CMOS BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149122/CMOS.BASED.FA.NETLIST.txt)
-[DOMINO BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149123/DOMINO.BASED.FA.NETLIST.txt)
 # Performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder
 The repository represents the performance analysis of CMOS and DOMINO based one bit full adder using Synopsis Custom Compiler on 28nm CMOS Technology.
 # Table of Contents
@@ -64,92 +62,8 @@ One other thing we need to keep in mind is that here we have loop for which an i
 ###### Fig 8: Transient analysis of DOMINO based full-adder
 
 ## Netlist of the Circuit:
-
-### For CMOS based full-adder:
-https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/blob/main/CMOS%20BASED%20FA%20NETLIST.txt
-
-### For DOMINO based full-adder:
-*  Generated for: PrimeSim
-*  Design library name: analog_icdesign
-*  Design cell name: domino_fulladder
-*  Design view name: schematic
-.lib 'saed32nm.lib' TT
-
-*Custom Compiler Version S-2021.09
-*Sat Feb 26 17:21:07 2022
-
-.global vdd gnd!
-********************************************************************************
-* Library          : analog_icdesign
-* Cell             : inverter
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt inverter gnd_1 in out vdd_1
-xm0 out in vdd_1 vdd_1 p105 w=0.72u l=100n nf=1 m=1
-xm1 out in gnd_1 gnd_1 n105 w=0.24u l=100n nf=1 m=1
-.ends inverter
-
-********************************************************************************
-* Library          : analog_icdesign
-* Cell             : domino_fulladder
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-xm19 net73 c net59 net59 n105 w=240n l=100n nf=1 m=1
-xm18 net59 phi gnd! gnd! n105 w=240n l=100n nf=1 m=1
-xm17 net65 carry_bar net128 net128 n105 w=0.1u l=0.03u nf=1 m=1
-xm16 net79 b net73 net73 n105 w=240n l=100n nf=1 m=1
-xm15 net128 b net59 net59 n105 w=240n l=100n nf=1 m=1
-xm14 net128 a net59 net59 n105 w=240n l=100n nf=1 m=1
-xm13 net128 c net59 net59 n105 w=240n l=100n nf=1 m=1
-xm12 net65 a net79 net79 n105 w=240n l=100n nf=1 m=1
-xm11 net31 phi gnd! gnd! n105 w=240n l=100n nf=1 m=1
-xm6 net35 b net31 net31 n105 w=240n l=100n nf=1 m=1
-xm7 net39 b net31 net31 n105 w=240n l=100n nf=1 m=1
-xm8 net35 a net31 net31 n105 w=240n l=100n nf=1 m=1
-xm9 carry_bar c net35 net35 n105 w=240n l=100n nf=1 m=1
-xm10 carry_bar a net39 net39 n105 w=240n l=100n nf=1 m=1
-xm22 carry_bar phi vdd vdd p105 w=0.72u l=100n nf=1 m=1
-xm23 net65 phi vdd vdd p105 w=0.72u l=100n nf=1 m=1
-xi25 gnd! net65 sum vdd inverter
-xi24 gnd! carry_bar carry vdd inverter
-v31 vdd gnd! dc=3
-v40 phi gnd! dc=0 pulse ( 3 0 0 10p 10p 40n 80n )
-v39 a gnd! dc=0 pulse ( 0 3 0 10p 10p 30n 60n )
-v41 c gnd! dc=0 pulse ( 0 3 0 10p 10p 50n 100n )
-v37 b gnd! dc=0 pulse ( 0 3 0 10p 10p 10n 20n )
-
-
-
-
-
-
-
-
-.tran '0n' '200n' name=tran
-
-.option primesim_remove_probe_prefix = 0
-.probe v(*) i(*) level=1
-.probe tran v(a) v(b) v(c) v(carry) v(sum) v(phi)
-
-.temp 25
-
-
-
-.option primesim_output=wdf
-
-
-.option parhier = LOCAL
-
-
-
-
-
-
-.end
+[CMOS BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149122/CMOS.BASED.FA.NETLIST.txt)
+[DOMINO BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149123/DOMINO.BASED.FA.NETLIST.txt)
 
 ## Observations:
 ###### Table No.1: Performance parameter
