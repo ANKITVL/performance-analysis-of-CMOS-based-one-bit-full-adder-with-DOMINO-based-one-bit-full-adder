@@ -76,6 +76,7 @@ https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder
 - [Cloud Based  Analog IC Design Hackathon](https://pages.github.com/)
 - [Synopsys India](https://pages.github.com/)
 - [VLSI System Design (VSD) Corp.Pvt.Ltd India](https://pages.github.com/)
+- [Mr. Chinmaya Panda](https://pages.github.com/)
 ## References:
 [1]Kamlesh Kukreti, Prashant Kumar, Shivangi Barthwal, Amit Juyal, Alankrita Joshi “Performance analyaisis of full adder based on domino logic technique” 2021 6th International conference on ICICT, Coimbatore, pp.312-316,2021
 
