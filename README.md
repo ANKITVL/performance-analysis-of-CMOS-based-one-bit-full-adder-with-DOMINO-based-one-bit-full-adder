@@ -1,6 +1,16 @@
 # Performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder
 The repository represents the performance analysis of CMOS and DOMINO based one bit full adder.
 # Table of Contents
+- Intrduction
+- CMOS Based Full-Adder
+- Domino Based Full-Adder
+- Tools Used
+- Pre-Layout Schematics and Simulations
+- Netlist of the Circuit
+- Observations
+- Author
+- Acknowledgements
+- References 
 ## Introduction
 In our VLSI design most efficient things is that the devices are getting portable day by day. So domino logic is on of those technique to helps in improvement in area and high speed logic gate. In this paper basically we designed one bit full adder domino based technique and one bit CMOS based full adder and just compare their speed, power consumption. We give the supply voltage of 1.8V. It was assumed that according to domino logic full adder occupied circuit is 28.57% less area than CMOS based full adder.
 ## CMOS Based Full-Adder:
