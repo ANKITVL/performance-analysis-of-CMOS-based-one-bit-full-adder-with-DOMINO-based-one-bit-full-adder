@@ -64,7 +64,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 ## Netlist of the Circuit:
 
 ### For CMOS based full-adder:
-[CMOS BASED FA NETLIST](https://pages.github.com/)
+https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/blob/main/CMOS%20BASED%20FA%20NETLIST.txt
 
 ### For DOMINO based full-adder:
 *  Generated for: PrimeSim
