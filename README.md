@@ -62,8 +62,9 @@ One other thing we need to keep in mind is that here we have loop for which an i
 ###### Fig 8: Transient analysis of DOMINO based full-adder
 
 ## Netlist of the Circuit:
-[CMOS BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149122/CMOS.BASED.FA.NETLIST.txt)
-[DOMINO BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149123/DOMINO.BASED.FA.NETLIST.txt)
+
+### For CMOS based Full-Adder:CMOS BASED FA NETLIST.txt
+### For DOMINO based Full-Adder:
 
 ## Observations:
 ###### Table No.1: Performance parameter
