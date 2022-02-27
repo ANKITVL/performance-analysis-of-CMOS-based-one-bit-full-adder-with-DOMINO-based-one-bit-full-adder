@@ -1,3 +1,5 @@
+[CMOS BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149122/CMOS.BASED.FA.NETLIST.txt)
+[DOMINO BASED FA NETLIST.txt](https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/files/8149123/DOMINO.BASED.FA.NETLIST.txt)
 # Performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder
 The repository represents the performance analysis of CMOS and DOMINO based one bit full adder using Synopsis Custom Compiler on 28nm CMOS Technology.
 # Table of Contents
