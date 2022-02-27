@@ -1,5 +1,5 @@
 # Performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder
-The repository represents the performance analysis of CMOS and DOMINO based one bit full adder.
+The repository represents the performance analysis of CMOS and DOMINO based one bit full adder using Synopsis Custom Compiler on 28nm CMOS Technology.
 # Table of Contents
 - Introduction
 - CMOS Based Full-Adder
