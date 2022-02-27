@@ -65,7 +65,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 ### For CMOS based Full-Adder:
 https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/blob/main/CMOS%20BASED%20FA%20NETLIST.txt
 ### For DOMINO based Full-Adder: 
-
+https://github.com/ANKITVL/performance-analysis-of-CMOS-based-one-bit-full-adder-with-DOMINO-based-one-bit-full-adder/blob/main/DOMINO%20BASED%20FA%20NETLIST.txt
 
 ## Observations:
 ###### Table No.1: Performance parameter
