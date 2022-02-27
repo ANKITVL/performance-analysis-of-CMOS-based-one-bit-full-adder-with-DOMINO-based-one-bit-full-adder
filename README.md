@@ -63,8 +63,8 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 ## Netlist of the Circuit:
 
-### For CMOS based Full-Adder:CMOS BASED FA NETLIST.txt
-### For DOMINO based Full-Adder:
+### For CMOS based Full-Adder: CMOS BASED FA NETLIST.txt
+### For DOMINO based Full-Adder: DOMINO BASED FA NETLIST.txt
 
 ## Observations:
 ###### Table No.1: Performance parameter
