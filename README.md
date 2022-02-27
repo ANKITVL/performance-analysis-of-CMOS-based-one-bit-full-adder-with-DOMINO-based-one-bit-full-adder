@@ -219,6 +219,17 @@ v37 b gnd! dc=0 pulse ( 0 3 0 10p 10p 10n 20n )
 
 .end
 
+## Observations:
+![table of performance](https://user-images.githubusercontent.com/94243690/155883946-5cfe31bd-5f7d-44c8-86b7-df7a1bdbcd64.png)
+## Author:
+• Ankit Vivek, M.Tech(Microelectronics and VLSI design), Motilal Nehru National Institute of Technology, Allahabad,Uttar Pradesh-211004
+## Acknowledgements:
+- [Cloud Based  Analog IC Design Hackathon](https://pages.github.com/)
+- [Synopsys India](https://pages.github.com/)
+- [VLSI System Design (VSD) Corp.Pvt.Ltd India](https://pages.github.com/)
+## References:
+[1]Kamlesh Kukreti, Prashant Kumar, Shivangi Barthwal, Amit Juyal, Alankrita Joshi “Performance analyaisis of full adder based on domino logic technique” 2021 6th International conference on ICICT, Coimbatore, pp.312-316,2021
+
 
 
 
