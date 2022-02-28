@@ -15,7 +15,7 @@ The repository represents the performance analysis of CMOS and DOMINO based one 
 In our VLSI design most efficient things is that the devices are getting portable day by day. So domino logic is on of those technique to helps in improvement in area and high speed logic gate. In this paper basically we designed one bit full adder domino based technique and one bit CMOS based full adder and just compare their speed, power consumption. We give the supply voltage of 1.8V. It was assumed that according to domino logic full adder occupied circuit is 28.57% less area than CMOS based full adder.
 ## CMOS Based Full-Adder:
 In our digital world the one-bit full adder circuit is one of the most widely used building blocks in all data processing and in digial signal processing architectures.In the following we are going to demonstrate the circuit structure and the realization of full adder using CMOS design style.Th expression of full-adder :
-                                                              Sum =A⊕B⊕C  Carry= AB+AC+BC
+                                                             ** Sum =A⊕B⊕C  Carry= AB+AC+BC **
 Basically what i am doing that the two above function are realize by first i use carry signal to generate the sum output not by realizing independentl since it helps to reduce the complexity of the hardware. Using that technique total number of transistor used are 28 in which total nMOS is 14 and total pMOS is 14.Below is the circuit diagram diagram helps to understand the functionality of full-adder based on CMOS.
 
 ![FA](https://user-images.githubusercontent.com/94243690/155888747-0a4e8643-b282-414d-ac9c-b38eff90e61c.png)
